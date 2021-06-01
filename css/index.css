@@ -59,4 +59,33 @@ button{
     font-size: 0.8em;
     margin: 30px;
     border-radius: 8px;
+    border: none;
+}
+
+#adiciona{
+    background-color: #63a4ff;
+    color:white;
+    border: solid 1px #63a4ff;
+}
+
+#precos{
+    background-color: #eeffff;
+    color:#63a4ff;
+    border: solid 1px #63a4ff;
+}
+
+#adiciona:hover{
+    background-color: #eeffff;
+    color: black;
+    transition: 700ms;
+}
+
+#precos:hover{
+    background-color: #63a4ff;
+    color: black;
+    transition: 700ms;
+}
+
+table{
+    border: solid 1px #0000;
 }
