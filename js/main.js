@@ -1,4 +1,4 @@
-const precos = document.getElementById("precos");
+/*const precos = document.getElementById("precos");
 const adicionar = document.getElementById("adiciona");
 
 
@@ -10,7 +10,7 @@ function exibirTabela() {
 }
 
 
-adicionar.addEventListener('click', registrar);
+//adicionar.addEventListener('click', registrar);
 
 function registrar() {
     const infos = {
@@ -28,4 +28,4 @@ function registrar() {
 
 
     console.log("alo", info);
-}
+}*/

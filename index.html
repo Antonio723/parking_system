@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="css/index.css" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
     <title>Controle de entrda</title>
 </head>
 
@@ -30,7 +31,31 @@
             </div>
         </form>
     </main>
+    <!--Modal -->
+    <div class="bg_modal" id="bg_modal" style="display: none;">
+        <div class="modal">
+            <div class="header_modal">
+                <h2>Preços</h2>
+                <svg id="close_modal" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x"
+                    width="52" height="52" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <line x1="18" y1="6" x2="6" y2="18" />
+                    <line x1="6" y1="6" x2="18" y2="18" />
+                </svg>
+            </div>
+            <hr>
+            <div class="inputs">
+                <label>Primeira Hora</label>
+                <input type="text" placeholder="valor">
+            </div>
+            <div class="inputs">
+                <label>Demais Horas</label>
+                <input type="text" placeholder="valor">
+            </div>
+        </div>
+    </div>
 </body>
-<script src="/js/main.js"></script>
+<script src="js/modal.js"></script>
 
 </html>
